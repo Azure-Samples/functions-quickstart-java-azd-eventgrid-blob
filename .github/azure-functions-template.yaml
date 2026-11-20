@@ -1,0 +1,11 @@
+# This descriptor drives template package creation in the packaging pipeline.
+schemaVersion: 1
+identity: Azure.Functions.Templates.EventGridBlobJava
+description: Create a Java Azure Functions app for Event Grid Blob Trigger, with Bicep infrastructure for deployment using
+  azd.
+projects:
+- name: Azure Functions Event Grid Blob Trigger (Java)
+  shortName: functions-quickstart-java-eventgrid-blob
+  root: .
+  stack: java
+  language: Java
